@@ -16,21 +16,21 @@ LonWorks - это одноранговый протокол, который мо
 
 ### Network Layer Datagram
 * Версия - всегда 0.
-* Формат пакета
+* Формат пакета  
    0 - Transport Packet  
    1 - Session Packet  
    2 - Authenticated Packet  
    3 - Presentation Packet  
-* Address Format
-   0 - Subnet Broadcast
-   1 - Group
-   2 - Subnet, Node or Group Acknowledgement
-   3 - Neuron ID
-* Length
-   0 - 0 bytes
-   1 - 1 byte
-   2 - 3 bytes
-   3 - 6 bytes
+* Address Format  
+   0 - Subnet Broadcast  
+   1 - Group  
+   2 - Subnet, Node or Group Acknowledgement  
+   3 - Neuron ID  
+* Length  
+   0 - 0 bytes  
+   1 - 1 byte  
+   2 - 3 bytes  
+   3 - 6 bytes  
 * Address - 3 to 9 bytes
 * Domain - 0, 1, 3 or 6 bytes
 * Packet
