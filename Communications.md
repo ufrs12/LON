@@ -21,12 +21,12 @@ LonWorks - это одноранговый протокол, который мо
    1 - Session Packet  
    2 - Authenticated Packet  
    3 - Presentation Packet  
-* Address Format  
+* Формат адеса  
    0 - Subnet Broadcast  
    1 - Group  
    2 - Subnet, Node or Group Acknowledgement  
    3 - Neuron ID  
-* Length  
+* Длина  
    0 - 0 bytes  
    1 - 1 byte  
    2 - 3 bytes  
