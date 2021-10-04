@@ -26,14 +26,14 @@ LonWorks - это одноранговый протокол, который мо
    1 - Group
    2 - Subnet, Node or Group Acknowledgement
    3 - Neuron ID
-  Length
-    0 - 0 bytes
-    1 - 1 byte
-    2 - 3 bytes
-    3 - 6 bytes
-  Address - 3 to 9 bytes
-  Domain - 0, 1, 3 or 6 bytes
-  Packet
+* Length
+   0 - 0 bytes
+   1 - 1 byte
+   2 - 3 bytes
+   3 - 6 bytes
+* Address - 3 to 9 bytes
+* Domain - 0, 1, 3 or 6 bytes
+* Packet
 CRC-16 - CCITT standard CRC (X16 + X12 + X5 + 1). Полином вычисляется для всего
   пакета и заголовка канального уровня. Период простоя считается любым,
   превышающим 2 бит, и отмечает конец кадра.
