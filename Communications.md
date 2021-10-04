@@ -4,7 +4,8 @@ LON расшифровывается как Local Operation Network, а LonWorks
 * ISO/IEC 14908-1 - Communications Protocol
 * ISO/IEC 14908-2 - Twisted Pair Signalling Technology
 * ISO/IEC 14908-3 - Power Line Signalling Technology
-* ISO/IEC 14908-4 - IP Compatibility
+* ISO/IEC 14908-4 - IP Compatibility  
+
 LonWorks - это одноранговый протокол, который может работать по витой паре, Ethernet или питающей сети. Инструмент настройки сети, такой как LonMaker, используется для настройки обмена данными путем привязки входа одного устройства к выходу другого устройства. Микросхема Neuron содержащит всю сетевую прошивку, изготовленный разными производителями. В чипе Neuron используется язык программирования Neuron C.
 
 ### Микросхема Neuron
