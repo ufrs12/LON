@@ -187,12 +187,12 @@ Backlog Increment, отправитель должен отслеживать о
 сетевую переменную, и в этом случае будет от 1 до 31 байта данных. Диапазон
 типов сообщений и их кодов следующие:
 
-|                                               |     HEX  |     DEC
-|Пользовательское приложение (User Application) |  00 - 2F | 	0 - 47
-|Стандартное приложение (Standard Application)	|  30 - 3E | 	48 - 62
-|Внешний кадр (Foreign Frame)	                  |  40 - 4E | 	64 - 78
-|Диагностика сети (Network Diagnostic)	        |  50 - 5F |	80 - 95
-|Сетевое управление (Network Management)	      |  60 - 7F |	96 - 127
-|Сетевая переменная (Network Variable)	        |  80 - FF |	128 - 255
+|    Тип сообщения                              |     HEX  |     DEC     |
+|Пользовательское приложение (User Application) |  00 - 2F | 	0 - 47     |
+|Стандартное приложение (Standard Application)	|  30 - 3E | 	48 - 62    |
+|Внешний кадр (Foreign Frame)	                  |  40 - 4E | 	64 - 78    |
+|Диагностика сети (Network Diagnostic)	        |  50 - 5F |	80 - 95    |
+|Сетевое управление (Network Management)	      |  60 - 7F |	96 - 127   |
+|Сетевая переменная (Network Variable)	        |  80 - FF |	128 - 255  |
 
 Это перевод. Оригинал здесь: http://www.rhyshaden.com/lonworks.htm
